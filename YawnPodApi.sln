@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YawnMassage.API", "YawnMassage.API\YawnMassage.API.csproj", "{050467D1-BB06-4CF8-8F21-996017CF294B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YawnMassage.Common.Domain", "YawnMassage.Common.Domain\YawnMassage.Common.Domain.csproj", "{7ABCB17D-6CF2-460A-BFEA-530A86EFBBA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YawnMassage.Common.Identity", "YawnMassage.Common.Identity\YawnMassage.Common.Identity.csproj", "{F6EF5E89-AE1F-46C4-B5CA-AC90BDD24952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YawnMassage.Common.Services", "YawnMassage.Common.Services\YawnMassage.Common.Services.csproj", "{4B838025-E59C-467F-8D34-D8A677301081}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YawnMassage.Platform.Domain", "YawnMassage.Platform.Domain\YawnMassage.Platform.Domain.csproj", "{65F97DE4-32B1-4AEE-9D27-B9DDAC20CDD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YawnMassage.Platform.Services", "YawnMassage.Platform.Services\YawnMassage.Platform.Services.csproj", "{1F95C5E5-6012-4876-8791-630BAF1F0CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{050467D1-BB06-4CF8-8F21-996017CF294B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050467D1-BB06-4CF8-8F21-996017CF294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050467D1-BB06-4CF8-8F21-996017CF294B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050467D1-BB06-4CF8-8F21-996017CF294B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABCB17D-6CF2-460A-BFEA-530A86EFBBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABCB17D-6CF2-460A-BFEA-530A86EFBBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABCB17D-6CF2-460A-BFEA-530A86EFBBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABCB17D-6CF2-460A-BFEA-530A86EFBBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EF5E89-AE1F-46C4-B5CA-AC90BDD24952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EF5E89-AE1F-46C4-B5CA-AC90BDD24952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EF5E89-AE1F-46C4-B5CA-AC90BDD24952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EF5E89-AE1F-46C4-B5CA-AC90BDD24952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B838025-E59C-467F-8D34-D8A677301081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B838025-E59C-467F-8D34-D8A677301081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B838025-E59C-467F-8D34-D8A677301081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B838025-E59C-467F-8D34-D8A677301081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F97DE4-32B1-4AEE-9D27-B9DDAC20CDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F97DE4-32B1-4AEE-9D27-B9DDAC20CDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F97DE4-32B1-4AEE-9D27-B9DDAC20CDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F97DE4-32B1-4AEE-9D27-B9DDAC20CDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F95C5E5-6012-4876-8791-630BAF1F0CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F95C5E5-6012-4876-8791-630BAF1F0CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F95C5E5-6012-4876-8791-630BAF1F0CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F95C5E5-6012-4876-8791-630BAF1F0CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BB96E09-4831-4EF7-8236-CF6F291DBED4}
+	EndGlobalSection
+EndGlobal

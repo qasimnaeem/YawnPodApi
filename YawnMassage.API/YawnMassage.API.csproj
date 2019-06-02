@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>d665c109-72b1-4060-abb5-6e569a5df9e9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Authorization\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YawnMassage.Common.Domain\YawnMassage.Common.Domain.csproj" />
+    <ProjectReference Include="..\YawnMassage.Common.Services\YawnMassage.Common.Services.csproj" />
+    <ProjectReference Include="..\YawnMassage.Platform.Domain\YawnMassage.Platform.Domain.csproj" />
+    <ProjectReference Include="..\YawnMassage.Platform.Services\YawnMassage.Platform.Services.csproj" />
+  </ItemGroup>
+
+</Project>

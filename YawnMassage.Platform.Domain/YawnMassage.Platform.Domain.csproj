@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YawnMassage.Common.Domain\YawnMassage.Common.Domain.csproj" />
+    <ProjectReference Include="..\YawnMassage.Common.Identity\YawnMassage.Common.Identity.csproj" />
+  </ItemGroup>
+
+</Project>
